@@ -1,0 +1,23 @@
+1. if instead of fuature-branch we have commited the changes to the master branch.
+
+so we want to move the commit from master branch to feature branch, then we want to return the master branch with the initial state
+For that we need to user :  git cherry-pick hash
+cherry-pick creates a new commit based on our original commit, it dosent delete that original commit
+
+a. in master branch do : git log - get the hash (1st 7-8chara)
+b. switch the feature branch
+c. now : git cherry-pick hash
+d. now do git log - we can see the commit which we had made in master is now available in feature branch
+but still the commit is available in master branch, but it should be removed
+
+e. do git checkout master and to see the log do git log
+f. there are 3 types of reset
+
+		i.   git reset --soft hash  -> it will reset the commit back to the initial state, but will keep the changes in staging area
+		ii.  git reset hash   -> (default is mix)  -> it reset back to initial state, the changes are not in staging area, but are availabe in working directory
+		iii. git reset --hard hash  -> reset to inital state, all the changes will be gone. It revert all the tracked files, but wont removed the untracked files
+		     we can removed the untracked files using : git clean -df
+
+		     if we do git reset hard, changes will be lost. but we can stll get those changes within certain time (like within 30 day  before get garbage collects removes them)
+		     use git reflog and get the hash before the reset and then do git checkout hash, then check in git log and can see those changes
+

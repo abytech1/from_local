@@ -38,20 +38,11 @@ if we do 'git remote add origin ssh-url' then do git remote, it wil show the rem
 
 18. git diff path/filename - to see the changes we made to the file
 
-we can do git diff for the commited hashes
-like git diff 1b818d 2nh332
-
 19. git clean -df  -  clean 'd' untracked directory, 'f' untracked files
 
 20. git reflog - show the change we have done in different branches
 
 21. git checkout -b branchname - to create and switch to the branch
-
-22. git checkout testing.py  - will remove the changes we made to the testing.py file
-
-
-23. if in git it shows Head detached - means the changes which we made are not in a branch, its in the detached head mode which will be
-	garbage collected in sometime
 
 
 
