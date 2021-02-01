@@ -23,3 +23,7 @@ it creates a new branch but we will be still in the old branch
 
 13 to switch to the branch - git checkout branch_name
 
+14. suppose we have done some modification in the branch 'branch1' and its completed , do git add . and do git commit
+, then we can come to master branch and
+then do git merge branch1 to merge the branch1 changes to the master
+
