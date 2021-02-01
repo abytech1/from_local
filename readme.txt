@@ -12,3 +12,16 @@ Initialized empty Git repository in directory path/from_local/.git/
 8. create repository 'from_local' in github
 9. copy the ssh key for that git repository
 10. Run the command : git remote add origin git@github.com:git_user_name/from_local.git
+
+this is done sothat local git knows to which remote repository in the github we need to push the code
+
+11. now if we do 'git push' it wont work
+
+12. we can use the command git push origin master
+
+this command we explicitly mention, we want to push the changes to the master branch of the origin
+
+
+13. to use the short form of the command(git push origin master) we can run the below command
+git push --set-upstream origin master
+
