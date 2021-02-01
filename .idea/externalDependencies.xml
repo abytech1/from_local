@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ExternalDependencies">
+    <plugin id="com.intellij.copyright" />
+    <plugin id="com.millennialmedia.intellibot@SeleniumLibrary Patched" />
+    <plugin id="org.intellij.intelliLang" />
+    <plugin id="org.jetbrains.plugins.python-intelliLang" />
+  </component>
+</project>
