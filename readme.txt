@@ -25,3 +25,9 @@ this command we explicitly mention, we want to push the changes to the master br
 13. to use the short form of the command(git push origin master) we can run the below command
 git push --set-upstream origin master
 
+Now local master branch is linked to remote(github) master branch
+
+
+14. now we can do some changes, do 'git add .', do git commit -m "second commit",
+then with only 'git push' it will update the remote
+

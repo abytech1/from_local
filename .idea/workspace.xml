@@ -15,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/readme.txt">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="98" selection-start-line="21" selection-start-column="98" selection-end-line="21" selection-end-column="98" />
+            <state relative-caret-position="405">
+              <caret line="27" column="109" selection-start-line="27" selection-start-column="109" selection-end-line="27" selection-end-column="109" />
             </state>
           </provider>
         </entry>
@@ -96,7 +96,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
@@ -120,8 +119,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/readme.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="98" selection-start-line="21" selection-start-column="98" selection-end-line="21" selection-end-column="98" />
+        <state relative-caret-position="405">
+          <caret line="27" column="109" selection-start-line="27" selection-start-column="109" selection-end-line="27" selection-end-column="109" />
         </state>
       </provider>
     </entry>
