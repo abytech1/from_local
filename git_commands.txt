@@ -1,0 +1,25 @@
+1. git init
+2. git add file/files
+3. git status
+4. git commit
+5. git push
+6. git pull
+7. git clone
+
+8. git config --global user.name "first last"
+9. git config --global user.email "name@gmail.com"
+10 git add test.py will stage the file, if we want to unstage the file then,
+git rm --cached test.py
+
+11. if we want some file not to add in the git then we can update those in the .gitignore file
+create a text file (test.txt) and if we dont that file in git
+ then create a file .gitignore and update test.txt in the .gitignore file
+ Now if we do git add . , it wont stage the test.txt file
+Similarly we can ignore directroy also, jus t update the directory like /directory_name
+Also we can ignore all text file by adding *.txt in the .gitignore file
+
+12. to create a branch - git branch branch_name
+it creates a new branch but we will be still in the old branch
+
+13 to switch to the branch - git checkout branch_name
+
