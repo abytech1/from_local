@@ -53,5 +53,8 @@ like git diff 1b818d 2nh332
 23. if in git it shows Head detached - means the changes which we made are not in a branch, its in the detached head mode which will be
 	garbage collected in sometime
 
+24. git push --set-upstream origin branch2  ->  it will create branch in the remote and push the code there
+
+
 
 

@@ -1,0 +1,50 @@
+
+
+-> Project
+
+		->Utilities
+				->File Reader
+				->Json Parser
+				Dynamic elements
+
+		->Listners
+				->custom listners  -> custom logging
+				->screenshot capture
+
+		->Resources
+				->FAiled screenshot
+
+		->config Properties
+				->Staging (configuration for staging environment)
+				->Production (configuration for production environment)
+
+		->Report
+			->Allure Report
+			->ReportNG
+
+		->Testng
+			->Parallel execution
+			->Grouping [Regression, smoke test]
+			->Assertion
+					->Hard assertion
+					->Soft Assertion
+
+		->Profiles
+				->Browsers
+						->Chrome
+						->Firefox
+						->IE
+
+
+
+
+	CI/CD
+		->Jenkinns
+				->Daily Builds
+				-> Trigger Mechanism
+		->Test execution status
+						->screenshot
+						->email
+		->Git used
+
+
